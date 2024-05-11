@@ -16,8 +16,8 @@ def main():
  #   print("Hello World!")
     load_dotenv()
     os.getenv("OPENAI_API_KEY")
-    st.set_page_config(page_title="AbdulPDF", page_icon="🚀")
-    st.header("AbdulPDF")
+    st.set_page_config(page_title="SpriPDF", page_icon="🚀")
+    st.header("SpriPDF")
 
     pdf = st.file_uploader("Upload a pdf", type="pdf")
     if pdf is not None:
